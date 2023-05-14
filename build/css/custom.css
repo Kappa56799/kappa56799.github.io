@@ -55,9 +55,6 @@ html, body {
     margin-bottom: 0vh;
 }
 
-
-
-
 .welcome {
     transform: translate(0px);
     animation: float 5s ease-out infinite;
