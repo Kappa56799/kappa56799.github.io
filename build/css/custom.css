@@ -11,8 +11,16 @@
 }
 .backdrop:hover {
   filter: opacity(50%);
-  transition: filter 250ms ease-in-out;
+}
 
+.size{
+    height: 40vh;
+    width: 40vh;
+    transition: transform 250ms ease-in-out;
+}
+
+.size:hover {
+    transform: scale(1.05);
 }
 
 html, body {
@@ -47,16 +55,8 @@ html, body {
     margin-bottom: 0vh;
 }
 
-.size{
-    height: 40vh;
-    width: 40vh;
 
-}
 
-.size:hover {
-    transform: scale(1.05);
-    transition: transform 250ms ease-in-out;
-}
 
 .welcome {
     transform: translate(0px);
