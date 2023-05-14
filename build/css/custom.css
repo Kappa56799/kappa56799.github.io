@@ -77,9 +77,11 @@ html, body {
 }
 
 .container{
-    display: inline-block;
     font-family: "arial";
     font-size: 24px;
+    display: grid;
+    place-items: center;
+    width: 350px;
   }
   
   .typed {
@@ -87,7 +89,7 @@ html, body {
     white-space: nowrap;
     border-right: 2px solid;
     width: 0;
-    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+    animation: typing 1.5s steps(60, end) forwards, blinking 1s infinite;
   }
     
   @keyframes typing {
@@ -96,7 +98,7 @@ html, body {
   }
   
   @keyframes blinking {
-    0% {border-right-color: transparent}
-    50% {border-right-color: rgb(255, 255, 255)}
-    100% {border-right-color: transparent}
+    0% {border-color: transparent}
+    50% {border-color: rgb(255, 255, 255)}
+    100% {border-color: transparent}
   }
