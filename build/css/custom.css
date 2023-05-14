@@ -1,0 +1,62 @@
+@keyframes bg-gradiant {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#background {
+    width: 100%;
+    height: 50vh;
+    padding: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(-45deg, #6a009b, #ff0095, #ff6600, #ff00d4);
+    background-size: 300% 300%;
+    animation: bg-gradiant 30s ease-in-out infinite;
+}
+
+
+.Spacing {
+    padding-top: 8vh;
+}
+
+.flex a {
+    margin-bottom: 0vh;
+}
+
+.size{
+    height: 40vh;
+    width: 25em;
+
+}
+
+.size:hover {
+    transform: scale(1.05);
+}
+
+.welcome {
+    transform: translate(0px);
+    animation: float 5s ease-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
