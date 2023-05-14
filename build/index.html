@@ -8,40 +8,72 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+
 </head>
 <body>
 
     <div id="background" >
-        <p class="text-white text-6xl  xl:text-9xl text-center ">Welcome!</p>
-        <p class="text-white text-2xl">I see you have found my website :)</p>
+        <p class="text-white text-6xl  xl:text-9xl text-center ">Hello Friend!</p>
+        <p class="text-white text-2xl">Welcome to my Website :)</p>
     </div>
 
     <div class="flex bg-gray-700 h-full w-full text-center flex-col">
         <span class="Spacing"></span>
+        <p class="text-white text-4xl">Choose what to click!</p>
+        <span class="Spacing"></span>
+
         <div class="flex flex-col items-center space-y-6 sm:space-y-0 sm:flex-row sm:justify-center sm:items-center">
-            <a href="https://github.com/Kappa56799" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center hover:blur-sm m-2">
+            <a href="https://github.com/Kappa56799" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center  m-2 backdrop">
                 <p class="text-white text-2xl">GitHub</p>
             </a>
-    
-            <a href="#" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center hover:blur-sm m-2">
+            
+            <a href="#" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center  backdrop m-2">
                 <p class="test text-white text-2xl">CV</p>
             </a>
     
-            <a href="#" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center hover:blur-sm m-2">
+            <a href="#about" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center  backdrop m-2" onclick="smoothScrollTo('about')">
                 <p class="test text-white text-2xl">About Me</p>
             </a>
     
-            <a href="#" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center hover:blur-sm m-2">
+            <a href="#Contact" class="size shadow-2xl rounded-3xl text-center bg-gray-600 flex justify-center items-center backdrop m-2" onclick="smoothScrollTo('Contact')">
                 <p class="test text-white text-2xl">Contact Me</p>
             </a>
         </div>
         <span class="Spacing"></span>
+
+        <section id="about">
+            <p class="text-white text-4xl">About Me!</p>
+            <p class="text-white  text-xl mt-5 mb-10 xl:ml-36 xl:mr-36 xl:text-2xl "> Im a 1st Year Student studying Computer Science 
+                at TUD in Grangegorman.  I have a huge interest in cybersecurity, programming and linux operating systems. Currently 
+                practicing security such as PWN and reverse engineering to compete in CTF events with Team Ireland without the RE.
+                Currently working on a Gentoo distro which will be used as my daily system for school work as I got bored of using my custom 
+                Arch distro.  Love programming in C++/C, bash and python, most of my scripts are all written in python and bash while the rest of
+                my projects use C/C++ due to
+            </p>
+        </section>
+
+        <section id="Contact">
+            <p class="text-white text-4xl">Contact Me!</p>
+            <p class="text-white  text-xl mt-5  xl:ml-36 xl:mr-36 xl:text-2xl "> 
+                Email - Kacper200657@hotmail.com
+            </p>
+
+            <p class="text-white  text-xl  mb-10 xl:ml-36 xl:mr-36 xl:text-2xl "> 
+                LinkedIn - Kacper Palka
+            </p>
+
+        </section>
     </div>
-    
 
-
-    <footer class=" top bg-gray-600 h-32 flex items-center justify-center ">
-        <p class="text-center text-white flex-col">Website Created by: Kacper Palka</p>
+    <footer class="top bg-gray-600 h-32 flex items-center justify-center">
+        <a href="#" class="text-center text-white flex-col">Website Created by: Kacper Palka</a>
     </footer>
+
+    <script>
+        function smoothScrollTo(target) {
+            const element = document.getElementById(target);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>

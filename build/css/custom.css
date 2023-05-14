@@ -9,9 +9,16 @@
         background-position: 0% 50%;
     }
 }
+.backdrop:hover {
+  filter: opacity(50%);
+  transition: filter 250ms ease-in-out;
+
+}
 
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
   }
   body {
     position: relative
@@ -48,6 +55,7 @@ html, body {
 
 .size:hover {
     transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
 }
 
 .welcome {
