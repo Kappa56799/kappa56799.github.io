@@ -583,8 +583,8 @@ video {
   line-height: 2rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -622,9 +622,11 @@ video {
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
+}
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+@media (min-width: 1280px) {
+  .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }
