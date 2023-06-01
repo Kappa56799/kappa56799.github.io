@@ -616,8 +616,16 @@ video {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-2xl {
