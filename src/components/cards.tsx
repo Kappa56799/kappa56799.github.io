@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import '../index.css';
 import '../App.css';
 
@@ -13,17 +14,17 @@ const Cards: React.FC = () => {
             <p className="BoldFont text-white text-4xl">GitHub</p>
           </a>
           
-          <a href="/blog" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
+          <Link to="/blog" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
             <p className="BoldFont text-white text-4xl">Blog</p>
-          </a>
+          </Link>
   
-          <a href="/about" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
+          <Link to="/about" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
             <p className="BoldFont text-white text-4xl">About Me</p>
-          </a>
+          </Link>
   
-          <a href="/contact" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
+          <Link to="/contact" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
             <p className="BoldFont text-white text-4xl">Contact Me</p>
-          </a>
+          </Link>
         </div>
         <span className="Spacing"/>
       </div>
