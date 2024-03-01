@@ -2,6 +2,7 @@
   "name": "kappa56799.github.io",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kappa56799.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
