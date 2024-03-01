@@ -1,4 +1,4 @@
-import {HashRouter as Router, Routes, Route,} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Home from './components/home';
 import About from './components/about';
 import Page404 from './components/Page404';
