@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div className="xl:flex xl:flex-col AboutMe">
         <h1 className="text-white text-4xl md:text-6xl BoldFont">About Me</h1>
         <p className="text-white text-xl md:text-2xl font-sans">Hello, I'm Kacper 👋 <br/><br/>
-          Currently a 2nd year Computer Science Student at TU Dublin.<br/><br/>
+          Currently a 3rd year Computer Science Student at TU Dublin.<br/><br/>
           I have a passion for technology and love to learn new things. 
           I'm always looking for new <br/> opportunities to expand my knowledge and skills and
           I'm hugely interested in Cyber-Security, <br/> Reverse Engineering and playing in CTF 
