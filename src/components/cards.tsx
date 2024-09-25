@@ -14,9 +14,9 @@ const Cards: React.FC = () => {
             <p className="BoldFont text-white text-4xl">GitHub</p>
           </a>
           
-          <Link to="/blog" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
+          <a href="https://blog.kacper.boo" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
             <p className="BoldFont text-white text-4xl">Blog</p>
-          </Link>
+          </a>
   
           <Link to="/about" className="size shadow-2xl rounded-3xl text-center bg-colour flex justify-center items-center backdrop m-2">
             <p className="BoldFont text-white text-4xl">About Me</p>

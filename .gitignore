@@ -24,3 +24,8 @@ fonts
 *.njsproj
 *.sln
 *.sw?
+
+yarn.lock
+*.cjs
+ip
+index.html
